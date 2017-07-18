@@ -38,7 +38,7 @@ namespace log4net.AspNetCore
 
           var level = Level.Info;
           if (config != null)
-            switch (config.ConversionPattern)
+            switch (config.MinLevel)
             {
                 case "FATAL":
                     level = Level.Fatal;
@@ -92,6 +92,12 @@ namespace log4net.AspNetCore
       private void InternalLog(string message, Level level)
       {
         _log.Log(null, level, message, null);
+
+        var cfg = new Log4NetConfig
+        {
+          MinLevel = "DEBUG",
+          ConversionPattern = "%date [%thread] %-5level %logger - %message%newline"
+        };
       }
 
       public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, 
@@ -137,7 +143,6 @@ namespace log4net.AspNetCore
           }
       }
   }
-
   public static class Log4netExtensions
   {
       public static ILoggerFactory AddLog4Net(this ILoggerFactory factory, Log4NetConfig cfg)

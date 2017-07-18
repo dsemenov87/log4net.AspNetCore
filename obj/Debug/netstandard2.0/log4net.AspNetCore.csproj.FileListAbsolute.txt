@@ -1,0 +1,8 @@
+D:\Repo\ITApteka.log4net.AspNetCore\log4net.AspNetCore\bin\Debug\netstandard2.0\log4net.AspNetCore.deps.json
+D:\Repo\ITApteka.log4net.AspNetCore\log4net.AspNetCore\bin\Debug\netstandard2.0\log4net.AspNetCore.dll
+D:\Repo\ITApteka.log4net.AspNetCore\log4net.AspNetCore\bin\Debug\netstandard2.0\log4net.AspNetCore.pdb
+D:\Repo\ITApteka.log4net.AspNetCore\log4net.AspNetCore\obj\Debug\netstandard2.0\log4net.AspNetCore.csproj.CoreCompileInputs.cache
+D:\Repo\ITApteka.log4net.AspNetCore\log4net.AspNetCore\obj\Debug\netstandard2.0\log4net.AspNetCore.AssemblyInfoInputs.cache
+D:\Repo\ITApteka.log4net.AspNetCore\log4net.AspNetCore\obj\Debug\netstandard2.0\log4net.AspNetCore.AssemblyInfo.cs
+D:\Repo\ITApteka.log4net.AspNetCore\log4net.AspNetCore\obj\Debug\netstandard2.0\log4net.AspNetCore.dll
+D:\Repo\ITApteka.log4net.AspNetCore\log4net.AspNetCore\obj\Debug\netstandard2.0\log4net.AspNetCore.pdb
