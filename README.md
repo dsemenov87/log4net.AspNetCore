@@ -2,6 +2,9 @@
 log4net extensions for AspNetCore
 
 ## Usage:
+```csharp
+using log4net.AspNetCore;
+```
 
 ```csharp
 public void Configure(IApplicationBuilder app,
